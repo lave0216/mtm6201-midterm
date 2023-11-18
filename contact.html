@@ -2,10 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Midterm Project - Laverdure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99d246f297.js" crossorigin="anonymous"></script>
+
+    <link href="css/contact.css" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        
+       <ul class="skip-links"> 
+            <li><a href="#main-nav">Main Navigation</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#timing">Hours of Operation</a></li>
+            <li><a href="#locationmap"> Google Map</a></li>
+        </ul>     
+
+    <a href="index.html"> <img src="images/douceurdumontsaintmichellogo.png" alt="logo" class="logo"></a>   
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav class="nav" id="main-nav" role="navigation" aria-label="main-nav">
+        <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="about"><a href="about.html">About</a></li>
+                <li class="products"><a href="products.html">Products</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav> 
+            <div class="searchbar" role="search">
+            <input type="text" placeholder="Search">      
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>   
+            <label for ="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            </label>
+    </header>
+    <div class="Contactwrapper" id="contact" role="form">
+        <h1 class="contactheader">Contact</h1>
+        <div class="contactcontainer">
+        <h2> Send us a message with the mood of your cakepop</h2>
+        <form action="contact" method="get">
+            <div>
+            <label for ="name">Name</label>
+            <input type="text" id="name" placeholder="Full Name">
+        </div>   
+        <div>
+            <label for="email">Email Address</label> 
+            <input type="email" id="email" placeholder="Email">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <div class="sendbutton">
+        <input type="submit" value="Send">
+        </div>    
+        </form>
+    </div>
+    <div class="hoursofoperation" id="timing">
+        <h2>Hours of Operation</h2>    
+    </div> 
+    <table class="hours">
+    <thead>
+         <tr>
+             <th>Days</th>
+             <th>Hours</th>
+         </tr>
+    </thead>  
+    <tbody>
+         <tr>
+             <td> Tuesday - Friday</td>
+             <td>10 AM - 6 PM </td>
+         </tr>
+         <tr>
+            <td> Saturday - Sunday </td>
+            <td> 11 AM - 3 PM</td>
+         </tr>
+    </tbody>
+    </table>
+
+    <section class="maps" id="locationmap">
+        <h2> Location </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358904.92640412407!2d-76.03508816718752!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648779402357!5m2!1sen!2sca" allowfullscreen="" loading="NA" referrerpolicy="NA"></iframe>   
+    </section>
+    </div>
+        
+    <footer> 
+        <div class="footer-heading footer-1">
+            <h3> Find us on</h3>
+            <a href="#"> Twitter</a>
+            <a href="#"> Instagram</a>
+            <a href="#"> Facebook</a>
+        </div> 
+        <div class="footer-heading footer-2">
+            <h3> Contact</h3>
+            <a href="contact.html">Contact</a>
+            <a href="#">Support</a>
+        </div>
+    </div>
+             
+    <div class="copyright">
+    <p> &copy; Douceur du Mont-Saint Michel, 2023 </p> 
+    </div>
     
-</body>
-</html>
+    </footer>
+    </body>
+    </html>

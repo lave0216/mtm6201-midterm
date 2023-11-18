@@ -10,32 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/99d246f297.js" crossorigin="anonymous"></script>
 
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="container">
-    <header role="banner"> 
+    <header> 
     <ul class="skip-links"> 
-        <li><a href="#nav"> Main Navigation</a></li>
-        <li><a href="#banner">main-banner</a></li>
-        <li><a href="#products">Products depending on mood</a></li>
-    </ul>   
-        
+        <li><a href="#main-nav">Main Navigation</a></li>
+        <li><a href="#gallery">Products depending on mood</a></li>
+    </ul>  
+
     <a href="index.html"> <img src="images/douceurdumontsaintmichellogo.png" alt="logo" class="logo"></a>   
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <nav class="main-nav" id="nav" role="navigation" aria-label="main-nav">
+    <nav class="nav" id="main-nav" role="navigation" aria-label="main-nav">
         <ul>
                 <li class="home"><a href="index.html">Home</a></li>
-                <li class="about"><a href="about.html">About</a></li>
+                <li class="about"><a href="aboutus.html">About</a></li>
                 <li class="products"><a href="products.html">Products</a></li>
                 <li class="contact"><a href="contact.html">Contact</a></li>
 
             </ul>
         </nav> 
             <div class="searchbar" role="search">
-            <label for="searchbar"> <span></span> </label>
-            <input type="text" id="searchbar" placeholder="Search">
+            <input type="text" placeholder="Search">      
             <i class="fa-solid fa-magnifying-glass"></i>
             </div>   
             <label for ="nav-toggle" class="nav-toggle-label">
@@ -43,23 +40,17 @@
             </label>
     </header>
 
-    <div class="main-banner" id="banner" role="banner">
-        <div class="mainbannertext">
-            <h1> You'll feel on cloud nine</h1> 
-            <p>Bienvenue, welcome to Douceur du Mont-Saint. Adelicacy of cake pops that will just make you pop out of delight. We provide quite unique types of flayours for our cake pops. Do you feel happy, curious, angry or just on cloud nine sometimes, well feel free to use your feelings to conisder what feelings your are feeling! Please keep in mind to check the list of products on the top left icon drop down menu.</p>
-            <a href="products.html" class="button">Order Now</a>
-            <div>
-            </div>
-            </div>
-
-            <div class="bannerimage"> 
-            <img src="images/cakepopbanner.png" alt="banner">
-            </div>   
-
-</div>
+<div class="products" id="gallery" role="main">
+    <h1> Cake pops depending on your mood!</h1>
+    <div class="gallery">
+        <img src="images/angryicon.png" alt="angry" class="angry">
+        <img src="images/curiousicon.png" alt="angry" class="curious">
+        <img src="images/happyicon.png" alt="angry" class="happy">
+        <img src="images/zenicon.png" alt="angry" class="zen">
+    </div>
+</div>  
    
 <footer> 
-    <div class="footer">
     <div class="footer-heading footer-1">
         <h3> Find us on</h3>
         <a href="#"> Twitter</a>
@@ -67,11 +58,11 @@
         <a href="#"> Facebook</a>
     </div> 
     <div class="footer-heading footer-2">
-        <h3> Contact Douceur du Mont-Saint Michel</h3>
-        <a href="contact.html">Contact</a>
+        <h3> Contact</h3>
+        <a href="contact.html"> Contact</a>
         <a href="#">Support</a>
-    </div>   
     </div>
+</div>
          
 <div class="copyright">
 <p> &copy; Douceur du Mont-Saint Michel, 2023 </p> 

@@ -2,10 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Midterm Project - Laverdure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99d246f297.js" crossorigin="anonymous"></script>
+
+    <link href="css/about.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header> 
+       <ul class="skip-links"> 
+        <li><a href="#main-nav">Main Navigation</a></li>
+    </ul>   
+
+    <a href="index.html"> <img src="images/douceurdumontsaintmichellogo.png" alt="logo" class="logo"></a>   
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav class="nav" id="main-nav" role="navigation" aria-label="main-nav">
+            <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="about"><a href="about.html">About</a></li>
+                <li class="products"><a href="products.html">Product</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> 
+            <div class="searchbar" role="search">
+            <input type="text" placeholder="Search">      
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>   
+            <label for ="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            </label>
+    </header>
+
+
+    <div class="abouttxt" id="about" role="main">
+    <h1> About Douceur du Mont-Saint Michel</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere aliquam blanditiis itaque tempore, iure, reprehenderit exercitationem magni sint dolorum officia reiciendis sequi! Nisi, quia! Facilis id excepturi quas corporis quia!.</p>  
+    </div>
+</div>
+
+<footer> 
+    <div class="footer-heading footer-1">
+        <h3> Find us on</h3>
+        <a href="#"> Twitter</a>
+        <a href="#"> Instagram</a>
+        <a href="#"> Facebook</a>
+    </div> 
+    <div class="footer-heading footer-2">
+        <h3> Contact</h3>
+        <a href="contact.html"> Contact</a>
+        <a href="#">Support</a>
+    </div>
+</div>
+         
+<div class="copyright">
+<p> &copy; Douceur du Mont-Saint Michel, 2023 </p> 
+</div>
+
+</footer>
 </body>
 </html>
